@@ -1,4 +1,4 @@
-# Challenge | Consolas and Telim |50 XP
+# Challenge | Consolas and Telim | 50 XP
 
 These lands have not seen Programming in a long time due to the blight of the Uncoded One. Even old
 programs are now crumbling to bits. Your skills with Programming are only fledgling now, but you can

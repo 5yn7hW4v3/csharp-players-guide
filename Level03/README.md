@@ -1,4 +1,4 @@
-# Level 3
+# LEVEL 3
 ## HELLO WORLD: YOUR FIRST PROGRAM
 
 **Speedrun**

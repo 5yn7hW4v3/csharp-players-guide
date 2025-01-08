@@ -1,3 +1,12 @@
-// See https://aka.ms/new-console-template for more information
+string numberOfChocolateEggsString;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("How many chocolate eggs were collected?");
+numberOfChocolateEggsString = Console.ReadLine();
+
+int numberOfChocolateEggs = Convert.ToInt32(numberOfChocolateEggsString);
+
+int sisterEggs = numberOfChocolateEggs / 3;
+int duckBearEggs = numberOfChocolateEggs % 3;
+
+Console.WriteLine("Each Sister gets " + sisterEggs + " eggs.");
+Console.WriteLine("The DuckBear gets " + duckBearEggs + " eggs.");

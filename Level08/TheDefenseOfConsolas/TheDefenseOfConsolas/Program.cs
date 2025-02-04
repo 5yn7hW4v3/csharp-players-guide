@@ -13,5 +13,8 @@ int deployUp = targetRowInt + 1;
 int deployDown = targetRowInt - 1;
 
 Console.ForegroundColor = ConsoleColor.Cyan;
-Console.WriteLine($"Deploy to:\n({targetRowInt},{deployLeft})\n({targetColumnInt},{deployDown})\n({targetRowInt},{deployRight})\n({deployUp},{targetColumnInt})");
+Console.WriteLine($"Deploy to:\n({targetRowInt},{deployLeft})\n" +
+                  $"({targetColumnInt},{deployDown})\n" +
+                  $"({targetRowInt},{deployRight})\n" +
+                  $"({deployUp},{targetColumnInt})");
 Console.Beep();
